@@ -1,0 +1,32 @@
+.homeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.Home {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.loader {
+    position: absolute;
+    left: 45%;
+    top: 35%;
+}
+
+.Home button {
+    cursor: pointer;
+    margin: 4px 8px 4px 8px;
+    padding: 6px;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+.Home button:hover {
+    background-color: red;
+}

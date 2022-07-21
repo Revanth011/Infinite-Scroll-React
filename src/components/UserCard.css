@@ -1,0 +1,44 @@
+.userCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 10px;
+    width: 320px;
+    margin: 8px;
+    word-wrap: break-word;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.userCardTop {
+    display: flex;
+    align-items: center;
+    margin: 4px;
+}
+
+#textBold {
+    font-weight: 600;
+}
+
+.userCardTopRight {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.userCardDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.userCardDetails-first {
+    display: flex;
+    flex-direction: column;
+}
+
+.userImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
